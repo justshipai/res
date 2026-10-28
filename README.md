@@ -18,6 +18,10 @@ RES separates evidence from inference, challenges its conclusions and makes unce
 
 A strategy should make four choices clear. RES tests each against what the company actually does.
 
+![RES framework: Customer, Bet, Edge and Trade-off, tested against evidence and alternative explanations.](assets/res-framework.png)
+
+[Download PNG](assets/res-framework.png) · [Editable SVG](assets/res-framework.svg)
+
 | Test | The question | The warning sign |
 | --- | --- | --- |
 | **Customer** | Who are they choosing to win with? | An audience too broad to guide decisions. |
@@ -64,6 +68,10 @@ Run it again later to see which conclusions strengthened, weakened or changed.
 ## Example: Notion
 
 *RES run on 28 October 2026. Research period: 28 April–28 October 2026. This is an independent assessment of public evidence, not Notion's endorsement.*
+
+![RES assessment of Notion: a coherent platform bet, with competitive edge as its weakest link.](assets/res-notion-example.png)
+
+[Download PNG](assets/res-notion-example.png) · [Editable SVG](assets/res-notion-example.svg)
 
 **Thesis: Notion is positioning its workspace as the persistent context and coordination layer for AI work, even when someone else's agent does the execution.** Overall confidence: **medium-high on direction, lower on competitive advantage**.
 
