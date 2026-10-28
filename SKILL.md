@@ -3,7 +3,7 @@ name: res
 description: Reverse engineer and judge a company's product strategy through Customer, Bet, Edge and Trade-off, using public releases, documentation, pricing and communications. Use for competitor research, strategic critique or assessing changes in direction.
 ---
 
-# RES: Reverse engineer strategy
+# Reverse Engineer Strategy (RES)
 
 Reconstruct the choices behind a company's actions, then judge whether they form a credible strategy. Distinguish evidence from inference.
 
