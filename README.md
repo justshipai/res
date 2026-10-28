@@ -1,6 +1,6 @@
-# RES
+# Reverse Engineer Strategy
 
-### Reverse engineer strategy
+**RES**
 
 **Reverse engineer your competitors’ strategy from what they ship.**
 
