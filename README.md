@@ -4,13 +4,13 @@
 
 **Reverse engineer your competitors’ strategy from what they ship.**
 
-Give RES a competitor. It investigates their releases, documentation, pricing and public communications to uncover who they're targeting, the bets they're making and where their strategy is vulnerable.
+Give RES a competitor. It investigates their releases, documentation, pricing and public communications to uncover who they're targeting, the bets they're making, where their strategy is vulnerable and what they might do next.
 
 Use it to understand a competitor's direction, investigate a suspected shift or turn scattered announcements into a clear strategic assessment.
 
 RES separates evidence from inference, challenges its conclusions and makes uncertainty visible.
 
-[Get started](#get-started) · [The four tests](#the-four-tests) · [Notion example](#example-notion) · [Read the skill](SKILL.md)
+[Get started](#get-started) · [The four tests](#the-four-tests) · [Forecasts](#what-could-come-next) · [Notion example](#example-notion) · [Read the skill](SKILL.md)
 
 ---
 
@@ -18,7 +18,7 @@ RES separates evidence from inference, challenges its conclusions and makes unce
 
 A strategy should make four choices clear. RES tests each against what the company actually does.
 
-![RES framework: Customer, Bet, Edge and Trade-off, tested against evidence and alternative explanations.](assets/res-framework.png)
+![RES framework: Customer, Bet, Edge and Trade-off, tested against evidence and alternatives, followed by testable next-move theses.](assets/res-framework.png)
 
 [Download PNG](assets/res-framework.png) · [Editable SVG](assets/res-framework.svg)
 
@@ -61,9 +61,17 @@ RES is an instruction-based skill. No API keys, server or custom runtime require
 - **A strategic thesis:** the choices that best explain the company's actions.
 - **Four evidence-backed tests:** inferred choices, dated sources, alternative explanations and confidence.
 - **A candid verdict:** whether the choices reinforce one another, the weakest link and its consequence.
-- **A signal to watch:** what would strengthen or overturn the assessment.
+- **Likely next moves:** testable theses with supporting evidence, alternatives, confidence, confirming and disconfirming signals, and a reassessment date.
 
-Run it again later to see which conclusions strengthened, weakened or changed.
+Run it again with the earlier report to see which conclusions changed and which predictions held up. RES reviews the evidence; it does not monitor companies automatically or assume access to previous reports.
+
+## What could come next?
+
+RES looks for unfinished sequences, newly enabled capabilities and pressures that could force a choice. It offers up to three specific theses, with an alternative, evidence that would strengthen or weaken each, and a date to reassess. It can return fewer when evidence is thin.
+
+Likely behaviour and good strategy are separate judgements. A predicted move can be a poor decision. Already-announced plans are labelled as such, not passed off as predictions.
+
+On a later run, give RES the earlier report. It preserves the original theses and marks them **supported, weakened, contradicted or unresolved**, rather than rewriting them to fit events. These are qualitative judgements, not calibrated probabilities.
 
 ## Example: Notion
 
@@ -106,6 +114,24 @@ Run it again later to see which conclusions strengthened, weakened or changed.
 The decisive question is whether Notion becomes the place teams maintain and govern working context, or an optional interface over data held elsewhere.
 
 **Watch next:** Renewal and expansion evidence from teams using external agents through Notion. Sustained workspace demand despite less use of Notion's own agent would strengthen the thesis; connections without recurring workflows would weaken it.
+
+### What could come next?
+
+*New hypotheses made on 28 October 2026, not claims about Notion's roadmap. Reassess both on 28 April 2027. The AI Command Center was already announced on [19 October](https://www.notion.com/releases/2026-10-19), so its arrival would not count as a RES prediction.*
+
+**1. Native approval and rollout controls for skills used by external agents.**
+
+- **Why:** [September's shared skills](https://www.notion.com/en-gb/releases/2026-09-15) and [October's Skills API](https://www.notion.com/releases/2026-10-13) extend team instructions across agents. Keeping approved instructions consistent becomes harder as distribution grows.
+- **Alternative:** Leave enforcement to agent providers and keep Notion as a library and export source.
+- **Signals:** Native approvals and pinned-version rollout would support it; further export-only releases or explicit delegation of enforcement would weaken it.
+- **Confidence: medium.** It follows the context-governance bet, but partner platforms may own the controls.
+
+**2. A separately priced offer for managing external agents.**
+
+- **Why:** [Bring-your-own AI and model-independent context](https://www.notion.com/blog/notion-ai-more-for-less) could increase workspace value without increasing Notion's execution credits. This creates a possible incentive to charge directly for managing external-agent work.
+- **Alternative:** Keep governance bundled into Business and Enterprise seats, as in the [current packaging](https://www.notion.com/pricing), and sell execution credits separately.
+- **Signals:** A dedicated external-agent management SKU would support it; expanded bundled controls with unchanged packaging would weaken it.
+- **Confidence: low.** The incentive is plausible, but public evidence does not establish buyer demand or commercial intent for a separate offer.
 
 *Limits: Primary sources establish reported capabilities and stated intent, not independent performance or commercial success. Research included official LinkedIn posts, such as [Notion's external-agent explanation](https://www.linkedin.com/posts/notionhq_how-notion-built-with-claude-managed-agents-activity-7447735838391709696-bo71); direct X posts were inaccessible. Current pricing was not assumed to apply throughout the period. This is a dated assessment, not a live report.*
 

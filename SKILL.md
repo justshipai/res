@@ -1,11 +1,11 @@
 ---
 name: res
-description: Reverse engineer and judge a company's product strategy through Customer, Bet, Edge and Trade-off, using public releases, documentation, pricing and communications. Use for competitor research, strategic critique or assessing changes in direction.
+description: Reverse engineer and judge a company's product strategy through Customer, Bet, Edge and Trade-off, using public releases, documentation, pricing and communications. Use for competitor research, strategic critique, likely next moves or changes in direction.
 ---
 
 # Reverse Engineer Strategy (RES)
 
-Reconstruct the choices behind a company's actions, then judge whether they form a credible strategy. Distinguish evidence from inference.
+Reconstruct the choices behind a company's actions, judge whether they form a credible strategy, then infer likely next moves. Distinguish evidence from inference.
 
 ## Scope
 
@@ -47,7 +47,7 @@ Lead with a short thesis, plain verdict and overall confidence. No numerical str
 
 For each test, state the inferred choice, dated linked evidence, strongest challenge, and confidence with a reason. Keep evidence and inference visibly distinct.
 
-Close with a strategic critique:
+Follow with a strategic critique:
 - Name the weakest link and its consequence.
 - Explain which choices reinforce or undermine one another.
 - Judge whether this is a credible strategy, poorly defined ambition, or mainly a roadmap. Call out fragmentation or erratic execution when supported.
@@ -55,4 +55,12 @@ Close with a strategic critique:
 
 Be concise; avoid repeated evidence. Include timelines or inventories only when explanatory. Add implications for the user's business only when requested and sufficiently understood.
 
-On repeat runs, identify conclusions that strengthened, weakened or changed. Preserve uncertainty rather than rewriting history.
+## What could come next?
+
+After the critique, offer up to three testable theses; fewer or none when evidence is weak. Derive them from unfinished investment sequences, enabling capabilities, dependencies, competitive pressures or economic constraints. Forecast likely behaviour, not recommended behaviour; a likely move may be strategically poor.
+
+For each, give a specific expected move, dated supporting evidence and causal reasoning, a credible alternative, confirming and disconfirming signals, confidence with a reason, and a reassessment date. Default to a three-to-six-month horizon; justify longer ones. Avoid false precision.
+
+Check whether the move is already shipped or announced. Label announced plans separately, never as original predictions. Do not fill a quota with generic trends.
+
+On repeat runs, retain original theses, dates and horizons; mark each supported, weakened, contradicted or unresolved against new linked evidence. A missed deadline or missing public evidence alone need not prove contradiction. Use earlier reports only when available; never invent memory. Identify changed conclusions without rewriting history.
